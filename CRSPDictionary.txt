@@ -1,0 +1,25 @@
+Field Name	Field Description 	Field Type 
+PERMNO	Security Unique Identifier 	bigint 
+date	Date	bigint
+TICKER	Stock Ticker	varchar(80)
+PERMCO	Company Unique Identifier	bigint 
+CUSIP	CUSIP	varchar(80)
+DLAMT	Delisting Amount 	double 
+DLSTCD	Delisting Code 	bigint
+PAYDT	Dividend Pay Date 	bigint
+RCRDDT	Dividend Record Date	bigint
+DIVAMT	Divident Amount 	double 
+FACPR		double 
+FACSHR		double 
+NWPERM	New Issue Unique Identifier (for delistings) 	bigint
+DLRETX	Delisting return without dividends 	double 
+DLRET	Delisting return with dividends 	double 
+BIDLO	Bid/Lo price	double 
+ASKHI	Ask/High price	double 
+PRC	Average price 	double 
+VOL	Trading volume 	double 
+RET	Daily Return 	double 
+CFACPR	Factor for adjusting share price for splits	double 
+CFACSHR	Factor for adjusting share volume for splits	double 
+OPENPRC	Price at open 	double 
+RETX	Return without dividend 	double 
