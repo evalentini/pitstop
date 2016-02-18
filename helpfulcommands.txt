@@ -1,0 +1,2 @@
+read first n rows of csv into python using pandas: pandas.read_csv("[filename here]", nrows=n)
+start sql on VPS: psql -U root -d pitstop
